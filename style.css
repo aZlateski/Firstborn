@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 0px;
+  height: 600px;
+}
+
+.left {
+  position: relative;
+  width: 67%;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("img/layer10.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.left img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.right {
+  width: 33%;
+  position: relative;
+}
+
+.columnrighttop {
+  height: 70%;
+}
+
+.columnrightbot {
+  height: 30%;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("img/Layer11.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.right h2 {
+  position: relative;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.right p {
+  padding: 0px 100px 0px 100px;
+  text-align: justify;
+  font-size: 15px;
+  color: grey;
+  line-height: 2;
+  font-family: "Comfortaa", cursive;
+}
+
+.columnrighttop img {
+  position: relative;
+  left: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+  float: left;
+  padding: 0px;
+  height: 600px;
+  width: 100%;
+}
+
+.left2 {
+  width: 33%;
+}
+
+.right2 {
+  position: relative;
+  width: 67%;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("img/Layer12.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.right2 img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.left2 h2 {
+  position: relative;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.left2 p {
+  padding: 0px 100px 0px 100px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+  color: grey;
+  line-height: 2;
+}
+
+.ace {
+  height: 70%;
+}
+
+.ace2 {
+  height: 30%;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("img/Layer13.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.ace img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.row3 {
+  float: left;
+  padding: 0px;
+  height: 600px;
+  width: 100%;
+}
+
+.left3 {
+  width: 33%;
+  background-image: url(img/Layer15.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.left3 img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle3 {
+  width: 33%;
+}
+
+.right3 {
+  width: 34%;
+  background-color: royalblue;
+}
+
+.beta {
+  height: 70%;
+}
+
+.beta2 {
+  height: 30%;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url("img/Layer16.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.middle3 h2 {
+  position: relative;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.middle3 p {
+  padding: 0px 100px 0px 100px;
+  text-align: justify;
+  font-size: 15px;
+  color: grey;
+  line-height: 2;
+  font-family: "Comfortaa", cursive;
+}
+
+.beta img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.right3 {
+  background-image: url(img/Layer14.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
