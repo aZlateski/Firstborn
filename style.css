@@ -1,3 +1,47 @@
+.fullwidth{
+  width: 100%;
+  margin: 0%;
+}
+
+.firsttext{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1{
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  color: grey;
+  line-height: 200%;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("img/layer7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navtext{
+  font-family: "Comfortaa", cursive;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }

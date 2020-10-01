@@ -1,0 +1,17 @@
+.fullwidth{
+  width: 100%
+}
+h1{
+  font-variant: small-caps;
+  font-family: sans-serif;
+}
+.firsttext{
+  display: flex;
+  justify-content: center;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
