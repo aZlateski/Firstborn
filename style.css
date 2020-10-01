@@ -1,23 +1,38 @@
-.fullwidth{
-  width: 100%;
-  margin: 0%;
-}
-
 .firsttext{
   background-color: rgb(247, 247, 247);
   margin-top: -1%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
   font-family: "Comfortaa", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  font-size: small;
 }
 
 h1{
   font-variant: small-caps;
   text-align: center;
+  font-size: medium;
+  letter-spacing: .2em;
+}
+
+.icondiv{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  width: 100%;
+}
+
+.icon{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  padding-top: 9%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
 }
 
 .center {
@@ -26,13 +41,25 @@ h1{
   line-height: 200%;
 }
 
+.fullwidth{
+  width: 100%;
+  margin: 0%;
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+}
+
 .navigation{
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
-  background-image: url("img/layer7.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: absolute;
+  top: 0%;
+  padding-top: 5%;
+  padding-bottom:100%;
+  width: 40%;
 }
 
 .navtext{
@@ -40,6 +67,10 @@ h1{
   font-variant: small-caps;
   text-decoration: none;
   color: black;
+  font-size: small;
+}
+
+.logo{
 }
 
 * {
