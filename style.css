@@ -15,8 +15,7 @@
 h1{
   font-variant: small-caps;
   text-align: center;
-  font-size: medium;
-  letter-spacing: .2em;
+  letter-spacing: .15em;
 }
 
 .icondiv{
@@ -28,7 +27,7 @@ h1{
 .icon{
   background-color: rgb(247, 247, 247);
   margin-top: -1%;
-  padding-top: 9%;
+  padding-top: 6%;
   display: block;
   margin-left: auto;
   margin-right: auto;
