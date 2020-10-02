@@ -8,6 +8,78 @@ body {
   margin: 0px;
 }
 
+.firsttext{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+}
+
+h1{
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: .15em;
+}
+
+.icondiv{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  width: 100%;
+}
+
+.icon{
+  background-color: rgb(247, 247, 247);
+  margin-top: -1%;
+  padding-top: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
+}
+
+.center {
+  text-align: center;
+  color: grey;
+  line-height: 200%;
+}
+
+.fullwidth{
+  width: 100%;
+  margin: 0%;
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+}
+
+.navigation{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  padding-top: 5%;
+  padding-bottom:100%;
+  width: 40%;
+}
+
+.navtext{
+  font-family: "Comfortaa", cursive;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+
 
 .column {
   float: left;
