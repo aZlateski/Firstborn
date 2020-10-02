@@ -1,11 +1,18 @@
+
+
 * {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+}
+
+
 .column {
   float: left;
   padding: 0px;
-  height: 600px;
+  height: 640px;
 }
 
 .left {
@@ -61,7 +68,10 @@
 
 .columnrighttop img {
   position: relative;
+  top: 50%;
   left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .row:after {
@@ -73,7 +83,7 @@
 .row2 {
   float: left;
   padding: 0px;
-  height: 600px;
+  height: 640px;
   width: 100%;
 }
 
@@ -134,11 +144,16 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .row3 {
   float: left;
   padding: 0px;
-  height: 600px;
+  height: 640px;
   width: 100%;
 }
 
@@ -210,4 +225,181 @@
   background-position: top left;
   overflow: hidden;
   background-size: cover;
+}
+
+/*ELTON */
+
+.left4 {
+  width: 33%;
+}
+
+.elton2 {
+  height: 50%;
+  background-color: purple;
+  background-image: url(img/Layer20.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.elton1 {
+  height: 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.col-1 {
+  background-image: url(img/Layer19.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+.col-2 {
+  background-image: url(img/Layer21.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.middle4 {
+  background-color: red;
+  width: 33%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.col-3 {
+  background-image: url(img/Layer22.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+.col-4 {
+  background-image: url(img/Layer25.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.right4 {
+  width: 34%;
+  background-color: green;
+}
+
+.elton5 {
+  height: 50%;
+  background-image: url(img/Layer23.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.color {
+  background-color: rgba(0, 255, 115, 0.301);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.color img {
+  top: 50%;
+  left: 50%;
+  position: relative;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.elton6 {
+  height: 50%;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.col-5 {
+  background-image: url(img/Layer24.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+.col-6 {
+  background-image: url(img/Layer26.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowtext {
+  height: 500px;
+  display: block;
+  float: left;
+  padding: 0px;
+  width: 100%;
+  background-color: rgba(216, 216, 216, 0.26);
+}
+
+.twitter {
+  text-align: center;
+}
+
+.textinfo {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 2px;
+  padding: 0px 250px;
+}
+
+.textinfo h4 {
+  color: rgba(128, 128, 128, 0.582);
+}
+
+.infom {
+  height: 200px;
+  display: block;
+  float: left;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(26, 31, 31);
+  text-align: center;
+}
+
+.myButton {
+  margin: 73px 0px 0px 0px;
+  box-shadow: inset 0px 34px 0px -8px #a84437;
+  background-color: #a73f2d;
+  border: 1px solid #241d13;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffe7e7;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #7a2a1d;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.myButton:hover {
+  background-color: #be4836;
 }
